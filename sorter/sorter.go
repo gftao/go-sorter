@@ -36,7 +36,6 @@ func main() {
 
 	values, err := readValues(*infile)
 	if err == nil {
-		//fmt.Println("Read values:", values)
 		t1 := time.Now()
 		switch *algorithm {
 		case "qsort":
